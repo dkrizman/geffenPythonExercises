@@ -3,5 +3,10 @@
 "type":"MongoQuery",
 "collection" : "movieDetails",
 "query":{"runtime":144}
+},
+{"id":2,
+"type":"MongoQuery",
+"collection" : "movieDetails",
+"query":"type1"
 }
 ]
