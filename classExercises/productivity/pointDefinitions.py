@@ -1,6 +1,7 @@
+import math as m
+
 class point:
     def __init__(self,x,y):
-        import math as m
         self.move(x, y)
         self.distance = m.sqrt(self.x**2 + self.y**2)
     
